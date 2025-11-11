@@ -3,6 +3,7 @@ build/
 bin/
 lib/
 obj/
+QnA/
 
 # CMake
 CMakeFiles/

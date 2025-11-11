@@ -27,7 +27,39 @@ A modern OpenGL-based Space Invaders game written in C++.
 
 All dependencies are included in the `utils/` folder, so no external installation is required!
 
-## Building
+## Quick Start
+
+⚡ **For your operating system:**
+
+### Windows (MinGW - Recommended)
+```bash
+mkdir build && cd build
+cmake -G "MinGW Makefiles" ..
+mingw32-make
+bin\space_invaders.exe
+```
+
+### Linux
+```bash
+mkdir build && cd build
+cmake ..
+make
+./bin/space_invaders
+```
+
+### macOS
+```bash
+mkdir build && cd build
+cmake ..
+make
+./bin/space_invaders
+```
+
+**⚠️ Need detailed setup help?** See [SETUP.md](SETUP.md) for step-by-step instructions for your OS.
+
+---
+
+## Full Building Instructions
 
 ### Step 1: Clone/Extract the project
 ```bash
